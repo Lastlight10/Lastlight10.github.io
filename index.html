@@ -3,9 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Webpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/index.css">
+    
 </head>
 <body>
-    <p>"Hello World" </p>
+    <div class="body2">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <div class="container-fluid">
+            <div class="top_menu">
+                <h1 class="greet" name="welcome">Welcome To My Home Page!</h1>
+                <button class="button" type="button" name="home_btn" value="Go to page" onclick="location.href='index.html'">Home</button>
+                <button class="button" type="button" name="business_btn" value="Go to page" onclick="location.href='business.html'">Business</button>
+                <button class="button" type="button" name="magazine_btn" value="Go to page" onclick="location.href='magazine.html'">Magazine</button>
+                <button class="button" type="button" name="umhis_btn" value="Go to page" onclick="location.href='history.html'">UM History</button>
+                <button class="button" type="button" name="event_btn" value="Go to page" onclick="location.href='events.html'">CS Events</button>
+                <button class="button" type="button" name="contact_btn" value="Go to page" onclick="location.href='contact.html'">Contact</button>
+            </div>
+        </div>
+        <div class="bg">
+            <div class="content">
+                <div class="container2 my-5">
+                    <div class="row1 justify-content-center">
+                        <div class="circle_pic">
+                            <img src="images/circle.jpg" alt="Circular Image" class="circular-image">
+                            <p class="text">Hi! My Name Is Clarenz Anthony L. Recon And This Is My Page! </p>
+                        </div>
+                        
+                        <div class="home_title">
+                            <header>Welcome User! The Webpage offers these content for you to explore.</header>
+                        </div>
+                        <!-- Main Blog Posts --> 
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card mb-4">
+                                        <img src="images/business.png" class="card-img-top" alt="Blog post image">
+                                        <div class="card-body">
+                                            <h2 class="card-title">Business</h2>
+                                            <p class="card-text">Want to buy powerful and high quality laptop? Go into the Business page of the website.</p>
+                                            <a href="business.html" class="btn btn-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-6">
+                                    <div class="card mb-4">
+                                        <img src="/images/magazine.png" class="card-img-top" alt="Blog post image">
+                                        <div class="card-body">
+                                            <h2 class="card-title">Magazine</h2>
+                                            <p class="card-text">Want to know more about the creator of this webpage? Go to the Magazine section.</p>
+                                            <a href="magazine.html" class="btn btn-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-6">
+                                    <div class="card mb-4">
+                                        <img src="/images/um_history.png" class="card-img-top" alt="Blog post image">
+                                        <div class="card-body">
+                                            <h2 class="card-title">UM History</h2>
+                                            <p class="card-text">Want to know more about The University of Manila? Click on the UM History tab to read more.</p>
+                                            <a href="history.html" class="btn btn-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="card mb-4">
+                                        <img src="/images/event.png" class="card-img-top" alt="Blog post image">
+                                        <div class="card-body">
+                                            <h2 class="card-title">CS History</h2>
+                                            <p class="card-text">Wan to know more about the Department of Computer Science and their events? Read more at the CS Events tab.</p>
+                                            <a href="events.html" class="btn btn-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Add more posts as needed -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>  
+        <footer class="bg-light py-4">
+            <div class="container_footer">
+                <div class="footer-row text-center">
+                    <!-- Copyright Section -->
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <h5 class="font-weight-bold">© 2024 My Webpage. All Rights Reserved.</h5>
+                        <p class="m-0">To be Submitted to Prof. Rogelio Plaza</p>
+                    </div>
+                    <!-- Creator Information Section -->
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <h5 class="font-weight-bold">This Webpage is Made By:</h5>
+                        <p class="m-0">Clarenz Anthony L. Recon</p>
+                    </div>
+                    <!-- Contact Us Section -->
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <h5 class="font-weight-bold">Contact Him Here:</h5>
+                        <a href="contact.html" class="d-block">Contacts</a>
+                    </div>
+                </div>
+            </div>
+        </footer>          
+    </div>
 </body>
 </html>

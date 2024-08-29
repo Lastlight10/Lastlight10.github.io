@@ -1,0 +1,111 @@
+.container{
+    display: flex;
+    
+}
+.top_menu{
+    width: 100%;
+    display:inline-block;
+    background-color: black;
+    margin-left: -12px;
+    margin-right: -12px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    min-height: 30px; 
+    position: fixed; 
+    text-align: right;
+    padding-left: 20px
+}
+.button{
+    width: 100px;
+    display: inline-block;
+    margin: 0px;
+    color: cyan;
+    background-color: black;
+    border: 0;
+    padding: 10px 0;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.button:hover{
+    background-color: whitesmoke;
+    color: rgb(2, 63, 63);
+    transition-delay: 0.1s;
+
+}
+.back_btn{
+    width: 250px;
+    display: block;
+    color: black;
+    background-color: white;
+    border: 0;
+    padding: 10px 0;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 36px;
+    font-family: monospace;
+}
+.back_btn:hover{
+    background-color: lightgray;
+    color: rgb(2, 63, 63);
+    transition-delay: 0.1s;
+
+}
+.bg{
+    background-color: black;
+    color: black;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+}
+.body{
+    background-color: black;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+}
+.greet{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 34px;
+    color: gold;
+    display: inline-block;
+    width: 600px;
+    margin: -20px;
+    text-align: left;
+}s
+.content{
+    padding: 20px;
+    margin: 40px;
+}
+.header{
+    color: black;
+    font-size: 36px;
+}
+.logo{
+    padding: 60px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.contact{
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-size: 48px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.details{
+    text-align: justify;
+    padding: 20px;
+    color: rgb(173, 233, 233);
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 50px;
+}

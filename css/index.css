@@ -1,0 +1,214 @@
+.container{
+    display: flex;
+}
+
+.container2{
+    display: flex;
+    margin: auto;
+}
+.bg{
+    background-image: url("/images/galaxy.png");
+    margin-top: -50px;
+}
+
+.top_menu{
+    width: 100%;
+    display:inline-block;
+    background-color: black;
+    margin-left: -12px;
+    margin-right: -12px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    min-height: 30px; 
+    position: fixed; 
+    text-align: right;
+    padding-left: 20px
+}
+.button{
+    width: 100px;
+    display: inline-block;
+    margin: 0px;
+    color: cyan;
+    background-color: black;
+    border: 0;
+    padding: 10px 0;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.button:hover{
+    background-color: whitesmoke;
+    color: rgb(2, 63, 63);
+    transition-delay: 0.1s;
+
+}
+.body2{
+    background-color: rgb(37, 37, 37);
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+}
+.greet{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 34px;
+    color: gold;
+    display: inline-block;
+    width: 600px;
+    margin: -20px;
+    text-align: left;
+}
+.content{
+    padding: 20px;
+    margin: 40px;
+    margin-bottom: 0px;
+}
+.header{
+    color: black;
+    font-size: 42px;
+}
+.home_pic{
+    padding: 60px;
+    max-width: 60%;
+    height: auto\9;
+    width: auto\15;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paragraph{
+    text-align: justify;
+    padding: 20px;
+    color: rgb(2, 63, 63);
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent:50px;
+}
+
+.card-img-top{
+min-width: 350px;
+min-height: 150px;
+}
+
+.card{
+    background-color:beige;
+    max-width: 500px;
+    max-height: 360px;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    display: none; /* Initially hidden */
+}
+
+.map_button {
+    padding: 10px 20px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.home_title{
+    font-size: 54px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:aliceblue;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.circular-image {
+    width: 480px; /* Adjust the size as needed */
+    height: 480px; /* Same as width to keep it circular */
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image covers the circular area */
+    margin-right: 20px; /* Space between the image and the text */
+}
+
+.circle_pic {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 50px;
+}
+.text {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px; /* Adjust font size as needed */
+    color:whitesmoke;
+    text-align: center;
+}
+
+.row{
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.row1{
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.582);
+    margin: -50px;
+    padding: 40px;
+}
+
+
+.col-md-12{
+    padding: 20px;
+}
+
+.container_footer {
+    width: 100%;
+    max-width: 1200px; /* Adjust max width as needed */
+    margin: 0 auto; /* Center container */
+    padding: 0 15px; /* Optional padding */
+}
+
+/* Flexbox for footer row */
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Space out columns evenly */
+}
+
+/* Flexbox columns */
+.footer-row > div {
+    flex: 1; /* Ensure columns are of equal width */
+    margin: 0 15px; /* Add margin for spacing */
+}
+
+/* Ensure columns do not exceed their container */
+.col-md-4 {
+    max-width: 100%; /* Ensure it does not exceed the width of the container */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .footer-row {
+        flex-direction: column; /* Stack columns vertically on smaller screens */
+    }
+
+    .footer-row > div {
+        margin-bottom: 20px; /* Add space between stacked columns */
+    }
+}
+
+/* Footer styling */
+footer {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px 0; /* Padding for spacing */
+    text-align: center; /* Center align text */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+}

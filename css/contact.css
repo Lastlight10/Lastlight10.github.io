@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+    
+}
+.top_menu{
+    width: 100%;
+    display:inline-block;
+    background-color: black;
+    margin-left: -12px;
+    margin-right: -12px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    min-height: 30px; 
+    position: fixed; 
+    text-align: right;
+    padding-left: 20px
+}
+.button{
+    width: 100px;
+    display: inline-block;
+    margin: 0px;
+    color: cyan;
+    background-color: black;
+    border: 0;
+    padding: 10px 0;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.button:hover{
+    background-color: whitesmoke;
+    color: rgb(2, 63, 63);
+    transition-delay: 0.1s;
+
+}
+.body{
+    background-color: whitesmoke;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+}
+.greet{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 34px;
+    color: gold;
+    display: inline-block;
+    width: 600px;
+    margin: -20px;
+    text-align: left;
+}
+.content{
+    padding: 20px;
+    margin: 40px;
+}
+.header{
+    color: black;
+    font-size: 36px;
+}
+.home_pic{
+    padding: 60px;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+.contact{
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-size: 48px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.details{
+    text-align: justify;
+    padding: 20px;
+    color: rgb(2, 63, 63);
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#mapContainer {
+    height: 500px; /* Adjust height as needed */
+    width: 100%;
+    max-width: 800px; /* Optional: Set a max-width for better control */
+    display: none; /* Hide the map container initially */
+    margin: 20px auto; /* Center horizontally */
+    position: relative; /* Use relative positioning for vertical centering */
+}
+
+.map_button{
+    border-radius: 10px;
+    color: rgb(1, 58, 58);
+    background-color: whitesmoke;
+    padding: 5px;
+    height: 50px;
+    width: auto;
+}
+
+.map_button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 49, 49);
+}
