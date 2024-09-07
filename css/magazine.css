@@ -142,3 +142,32 @@
     max-width: 350px;
     max-height: 200px;
 }
+.large-image {
+    width: 100%; /* Makes images take up full width of their container */
+    max-width: 800px; /* Adjust max-width to make the images larger or smaller */
+    height: auto; /* Keeps aspect ratio */
+}
+
+.profile-title{
+    color: aliceblue;
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.profile-img{
+    max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+    padding: 50px;
+}
+
+.row header{
+    color: aliceblue;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    padding: 20px;
+    text-indent: 50px;
+}

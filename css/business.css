@@ -158,7 +158,9 @@
 .text-content p{
     text-align: justify;
     font-size: 16px;
+    
 }
+
 .showMoreBtn {
     margin-top: 20px; /* Space between the content and the button */
     padding: 10px 20px;
@@ -178,7 +180,6 @@
 #moreText p{
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
-
 }
 
 .content {
@@ -197,4 +198,37 @@
     color: rgb(2, 63, 63);
     transition-delay: 0.1s;
 
+}
+
+.bot_part{
+    text-align: justify;
+    color: rgb(173, 233, 233);
+    margin: 40px;
+    padding: 20px;
+}
+.desc, .pcvision, .pcmission{
+    text-align: justify;
+    color: rgb(173, 233, 233);
+    margin: 40px;
+    padding: 20px;
+}
+
+.pcmission, .pcvision{
+    font-size: 32px;
+    text-align: justify;
+    display: block;
+    margin: 40px;
+    padding: 20px;
+    
+}
+
+
+.desc header{
+    font-size: 32px;
+}
+
+.pcmission p, .pcvision p, .desc p, .desc li{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 50px;
 }

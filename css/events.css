@@ -73,6 +73,7 @@
     color: whitesmoke;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 50px;
 }
 .pic_group, .pic_group_2, .pic_group_3, .pic_group_4{
     position: relative;
@@ -195,6 +196,7 @@
     color: white;
     font-size: 24px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .history p{
@@ -202,4 +204,15 @@
     font-size: 18px;
     color:white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 50px;
+}
+.details li{
+    text-indent: 0px;
+}
+
+.profpic{
+    display: block;
+    margin: auto;
+    width: 700px;
+    height: auto;
 }
