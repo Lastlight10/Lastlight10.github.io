@@ -19,7 +19,7 @@ function Home(){
           </h1>
           <div className="contentPanel">
             <p className="contentText">
-              Here are my projects made from PHP and MySQL.
+              Here are my projects made from PHP and MySQL and deployed in Infinityfree.
             </p>
           </div>
         </div>
