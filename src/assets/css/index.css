@@ -1,0 +1,58 @@
+@import url('author.css');
+@import 'tailwindcss';
+
+
+:root {
+  --color-primary-50: #eff1f5;
+  --color-primary-100: #b4cdf7;
+  --color-primary-200: #81abf1;
+  --color-primary-300: #4d89eb;
+  --color-primary-400: #1966e6;
+  --color-primary-500: #144fb2;
+  --color-primary-600: #0e387e;
+  --color-primary-700: #08214b;
+  --color-primary-800: #030a17;
+}
+
+/* Utility Classes */
+.bg-primary-50 { background-color: var(--color-primary-50); }
+.text-primary-50 { color: var(--color-primary-50); }
+.border-primary-50 { border-color: var(--color-primary-50); }
+
+.bg-primary-100 { background-color: var(--color-primary-100); }
+.text-primary-100 { color: var(--color-primary-100); }
+.border-primary-100 { border-color: var(--color-primary-100); }
+
+.bg-primary-200 { background-color: var(--color-primary-200); }
+.text-primary-200 { color: var(--color-primary-200); }
+.border-primary-200 { border-color: var(--color-primary-200); }
+
+.bg-primary-300 { background-color: var(--color-primary-300); }
+.text-primary-300 { color: var(--color-primary-300); }
+.border-primary-300 { border-color: var(--color-primary-300); }
+
+.bg-primary-400 { background-color: var(--color-primary-400); }
+.text-primary-400 { color: var(--color-primary-400); }
+.border-primary-400 { border-color: var(--color-primary-400); }
+
+.bg-primary-500 { background-color: var(--color-primary-500); }
+.text-primary-500 { color: var(--color-primary-500); }
+.border-primary-500 { border-color: var(--color-primary-500); }
+
+.bg-primary-600 { background-color: var(--color-primary-600); }
+.text-primary-600 { color: var(--color-primary-600); }
+.border-primary-600 { border-color: var(--color-primary-600); }
+
+.bg-primary-700 { background-color: var(--color-primary-700); }
+.text-primary-700 { color: var(--color-primary-700); }
+.border-primary-700 { border-color: var(--color-primary-700); }
+
+.bg-primary-800 { background-color: var(--color-primary-800); }
+.text-primary-800 { color: var(--color-primary-800); }
+.border-primary-800 { border-color: var(--color-primary-800); }
+
+
+body{
+  @apply w-full h-screen bg-[var(--color-primary-700)] overflow-y-scroll scrollbar-thin;
+
+}
