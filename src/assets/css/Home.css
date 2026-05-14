@@ -15,3 +15,17 @@
 .contentText{
   @apply text-xl text-[var(--color-primary-50)] text-justify indent-8;
 }
+
+.panelButton{
+  @apply text-lg text-center text-[var(--color-primary-50)] bg-[var(--color-primary-600)]
+  m-4 w-1/4 h-1/2 self-center rounded-2xl;
+  cursor: pointer;
+}
+
+.panelWithButton{
+  @apply  mt-8 text-center flex flex-col self-center h-30;
+}
+
+.panelWithButtonText{
+  @apply text-center text-xl text-[var(--color-primary-50)];
+}
