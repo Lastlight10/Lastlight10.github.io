@@ -1,8 +1,8 @@
 @reference 'index.css';
 
 .navbarButtons{
-  @apply text-[var(--color-primary-100)] text-center align-text-top text-base 
-  hover:text-[var(--color-primary-50)]
+  @apply flex text-[var(--color-primary-100)] text-center align-text-top md:text-base sm:text-sm
+  hover:text-[var(--color-primary-50)] justify-center-safe
   hover:text-lg
   hover:outline-1
   focus:outline-1
@@ -11,19 +11,20 @@
   active:text-[var(--color-primary-700)]
 
   mx-4
-  w-1/5
-  h-full;
+  h-9/10
+  w-full;
   
   :active{
     @apply bg-[var(--color-primary-100)] text-[var(--color-primary-700)];
 
   }
+  
   cursor: pointer;
 
 }
 
 .welcomeHeader{
-  @apply mx-4 w-auto text-3xl  text-shadow-blue-900 self-center-safe ;
+  @apply mx-4 w-auto md:text-3xl sm:text-base  text-shadow-blue-900 self-center-safe ;
   
   font-family: Author-Semibold;
 }

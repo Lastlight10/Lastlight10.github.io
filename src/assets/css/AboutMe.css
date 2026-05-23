@@ -1,0 +1,51 @@
+@reference 'index.css';
+
+img{
+  pointer-events: none;
+  --webkit-user-drag:none;
+  @apply mb-4;
+}
+
+.panels{
+  @apply bg-[var(--color-primary-800)] p-4 my-5 rounded-md;
+
+}
+
+.headers{
+  @apply text-3xl text-[var(--color-primary-200)] mt-4 mb-4;
+}
+
+.headers2{
+  @apply text-2xl text-[var(--color-primary-100)] mt-4;
+}
+
+.headers3{
+  @apply text-lg text-[var(--color-primary-50)] mt-4 font-bold;
+}
+
+.contentPanel{
+  @apply rounded-2xl p-4;
+}
+.contentText{
+  @apply text-xl text-[var(--color-primary-50)] text-justify indent-8 mt-4;
+}
+.contentSubText{
+  @apply text-base text-[var(--color-primary-50)] text-justify indent-4 mt-4;
+}
+.panelButton{
+  @apply text-lg text-center text-[var(--color-primary-50)] bg-[var(--color-primary-600)]
+  m-4 w-1/4 h-1/2 self-center rounded-2xl;
+  cursor: pointer;
+}
+
+.panelWithButton{
+  @apply  mt-8 text-center flex flex-col self-center h-30;
+}
+
+.panelWithButtonText{
+  @apply text-center text-xl text-[var(--color-primary-50)];
+}
+
+.aboutMePics{
+  @apply aspect-5/6 col-span-1 md:aspect-square ;
+}
