@@ -2,7 +2,7 @@
 
 .panels{
   @apply bg-[var(--color-primary-800)] p-4 my-5 rounded-md;
-
+  z-index: 0;
 }
 
 .headers{
@@ -17,8 +17,8 @@
 }
 
 .panelButton{
-  @apply text-lg text-center text-[var(--color-primary-50)] bg-[var(--color-primary-600)]
-  m-4 w-1/4 h-1/2 self-center rounded-2xl;
+  @apply flex justify-center items-center text-center text-lg text-[var(--color-primary-50)] bg-[var(--color-primary-600)]
+  m-4 w-1/4 h-1/2  rounded-2xl;
   cursor: pointer;
 }
 

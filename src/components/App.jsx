@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from 'react-router'
 import '../assets/css/App.css'
 import Home from './Home.jsx'
 import AboutMe from './AboutMe.jsx'
+import Projects from './Projects.jsx'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,7 +35,7 @@ function App() {
               </div>
 
               <div className="col-span-1">
-                <a className="navbarButtons">
+                <a className="navbarButtons" href='/projects'>
                   Projects
                 </a>
               </div>
@@ -51,6 +53,7 @@ function App() {
         <Routes>
           <Route index element={<Home />}/>
           <Route path='/about_me' element={<AboutMe />}/>
+          <Route path='/projects' element={<Projects />}/>
         </Routes>
       </BrowserRouter>
     </>

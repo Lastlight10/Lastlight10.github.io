@@ -19,9 +19,9 @@ function Home(){
                 <p className="panelWithButtonText">
                   You can learn more about me here:
                 </p>
-                <button className="panelButton">
+                <a className="panelButton" href="/about_me">
                   Click Here
-                </button>
+                </a>
               </div>
             </div>
             
@@ -44,9 +44,9 @@ function Home(){
                 <p className="panelWithButtonText">
                   You can learn more about my projects here:
                 </p>
-                <button className="panelButton">
+                <a className="panelButton" href="/projects">
                   Click Here
-                </button>
+                </a>
               </div>
             </div>
             
@@ -68,9 +68,9 @@ function Home(){
                 <p className="panelWithButtonText">
                   You can learn more about my development stack here:
                 </p>
-                <button className="panelButton">
+                <a className="panelButton">
                   Click Here
-                </button>
+                </a>
               </div>
             </div>
             

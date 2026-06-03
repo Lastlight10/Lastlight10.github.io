@@ -1,5 +1,6 @@
 @import url('author.css');
 @import 'tailwindcss';
+@import 'tailwindcss-animated';
 
 
 :root {

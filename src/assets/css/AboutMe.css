@@ -47,5 +47,12 @@ img{
 }
 
 .aboutMePics{
-  @apply aspect-5/6 col-span-1 md:aspect-square ;
+  @apply object-center md:aspect-square;
+  @apply animate-fade-right animate-infinite animate-duration-5000;
+  
+
+}
+
+.profileCarousel{
+  @apply self-center-safe align-middle content-center-safe w-full h-full flex justify-center;
 }
