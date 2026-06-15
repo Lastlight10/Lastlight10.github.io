@@ -1,5 +1,5 @@
-import '../assets/css/AboutMe.css'
-import { useState, useEffect } from 'react'
+import '../assets/css/AboutMe.css';
+import { useState, useEffect } from 'react';
 
 function AboutMe() {
 
@@ -10,7 +10,6 @@ function AboutMe() {
     const interval = setInterval(() => {
       setI((prev)=>{
         const nextI = prev > 1 ? 0 : prev + 1;
-        console.log(prev)
         if (nextI === 1){
           setImage("src/assets/profile1.JPG")
         }
@@ -29,7 +28,7 @@ function AboutMe() {
   return (
     <>
       <div className="flex-col grid grid-rows-1 gap-2 p-4 mt-48">
-        <div className="panels animate-ease-in animate-fade-down">
+        <div className="panels animate-ease-in animate-fade-down animate-duration-500">
           <h1 className="headers">Want to know more about me?</h1>
           <div className="contentPanel justify-center grid grid-cols-3">
             <div className="gap-4 col-span-1 text-primary-50">

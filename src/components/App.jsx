@@ -7,11 +7,11 @@ import '../assets/css/App.css'
 import Home from './Home.jsx'
 import AboutMe from './AboutMe.jsx'
 import Projects from './Projects.jsx'
-
+import Stack from './Stack.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  
   return (
     <>
       <BrowserRouter>
@@ -41,7 +41,7 @@ function App() {
               </div>
 
               <div className="col-span-1">
-                <a className="navbarButtons">
+                <a className="navbarButtons" href='/stack'>
                   Development Stack
                 </a >
               </div>
@@ -54,6 +54,8 @@ function App() {
           <Route index element={<Home />}/>
           <Route path='/about_me' element={<AboutMe />}/>
           <Route path='/projects' element={<Projects />}/>
+          <Route path='/stack' element={<Stack />}/>
+
         </Routes>
       </BrowserRouter>
     </>
