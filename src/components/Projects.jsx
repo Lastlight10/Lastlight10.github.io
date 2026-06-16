@@ -7,6 +7,7 @@ function nextSlide(){
 
 function Projects(){
 
+  //FIRST PROJECT
   const [projectOne, setProjectOne] = useState("src/assets/projects1/p1.jpg");
   const [countOne, setCountOne] = useState(0);
   let picOne;
@@ -37,6 +38,39 @@ function Projects(){
     });
   };
 
+  //SECOND PROJECT
+  const [projectTwo, setProjectTwo] = useState("src/assets/projects2/p1.jpg");
+  const [countTwo, setCountTwo] = useState(0);
+  let picTwo;
+
+  function nextSlideTwo(){
+    setCountTwo((prevTwo)=>{
+      const nextTwo = prevTwo > 4 ? 0 : prevTwo + 1;
+      picTwo = nextTwo === 1 ? "src/assets/projects2/p2.jpg" 
+      : nextTwo === 2 ? "src/assets/projects2/p3.jpg"
+      : nextTwo === 3 ? "src/assets/projects2/p4.jpg"
+      : nextTwo === 4 ? "src/assets/projects2/p5.jpg"
+      : nextTwo === 5 ? "src/assets/projects2/p6.jpg"
+      : "src/assets/projects2/p1.jpg";
+      setProjectTwo(picTwo);
+      return nextTwo;
+    });
+  };
+
+  function prevSlideTwo(){
+    setCountTwo((prevTwo)=>{
+      const nextTwo = prevTwo < 0 ? 4 : prevTwo - 1;
+      picTwo = nextTwo === 1 ? "src/assets/projects2/p2.jpg" 
+      : nextTwo === 2 ? "src/assets/projects2/p3.jpg"
+      : nextTwo === 3 ? "src/assets/projects2/p4.jpg"
+      : nextTwo === 4 ? "src/assets/projects2/p5.jpg"
+      : nextTwo === 5 ? "src/assets/projects2/p6.jpg"
+      : "src/assets/projects2/p1.jpg";
+      setProjectTwo(picTwo);
+      return nextTwo;
+    });
+  };
+
   return(
     <>
       <div className="flex-col grid grid-rows-1 gap-2 p-4 mt-48">
@@ -58,14 +92,19 @@ function Projects(){
             </div>
             <div className="contentText">The projects displayed here are my work as a requirement for my college project submissions and for personal projects. The following projects are free and made for non-profit purposes and can be accessed via their respective GitHub repository links shown below. Any use of the projects below should provide a reference or accreditation to its original developer.</div>
           </div>
-
-          
         </div>
 
         <div className="panels animate-fade-down animate-ease-in animate-duration-500">
-          <h2 className="headers2">Online School Enrollment System with Payment Verification</h2>
+          <h2 className="headers2">Online Enrollment Management System</h2>
           <div className="contentPanel">
-
+            <div className="imagePanel">
+              <img className="projectPics" src={projectTwo} alt="Project pictues set 2."></img>
+              <div className="buttonContainer">
+                <button className="slideshowButton next md:right-0" onClick={ nextSlideTwo } id="nextButtonTwo">Next</button>
+                <button className="slideshowButton left md:left-0" onClick={ prevSlideTwo } id="prevButtonTwo">Previous</button>
+              </div>
+            </div>
+            <div className="contentText">The projects displayed here are my work as a requirement for my college project submissions and for personal projects. The following projects are free and made for non-profit purposes and can be accessed via their respective GitHub repository links shown below. Any use of the projects below should provide a reference or accreditation to its original developer.</div>
           </div>
         </div>
 
