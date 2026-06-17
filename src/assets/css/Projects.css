@@ -64,6 +64,14 @@
 
 }
 
+.featuresPanel{
+  @apply flex  grid grid-flow-col grid-rows-2 gap-4 text-lg text-[var(--color-primary-50)] mt-15;
+}
+
+.feature{
+  @apply p-4 text-justify mt-4;
+}
+
 .buttonContainer{
  @apply flex flex-row-reverse justify-center md:static gap-4 h-full;
 }

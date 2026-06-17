@@ -90,7 +90,54 @@ function Projects(){
                 <button className="slideshowButton left md:left-0" onClick={ prevSlideOne } id="prevButtonOne">Previous</button>
               </div>
             </div>
-            <div className="contentText">The projects displayed here are my work as a requirement for my college project submissions and for personal projects. The following projects are free and made for non-profit purposes and can be accessed via their respective GitHub repository links shown below. Any use of the projects below should provide a reference or accreditation to its original developer.</div>
+
+            <div className="contentText">The projects displayed here are my work as a requirement for my college project submissions and for personal projects. The following projects are free and made for non-profit purposes and can be accessed via their respective GitHub repository links shown below. Any use of the projects below should provide a reference or accreditation to its original developer.
+            </div>
+
+            <div className="featuresPanel">
+              <div className="feature col-span-1 row-span-1 text-center font-bold">
+                FEATURES
+              </div>
+              <div className="feature col-span-1 row-span-1 text-center font-bold">
+                DEVELOPMENT STACK
+              </div>
+              <div className="feature col-span-2 row-span-1 font-semibold">
+                <ul className="list-disc ms-4">
+                  <li>Online inventory tracking for computer parts with and without serialization</li>
+                  <li>Transaction management and history tracking</li>
+                  <li>Product monitoring and management</li>
+                  <li>Sale report and accessible PDF document printing</li>
+                  <li>User interface designed for modern web browsers</li>
+                </ul>
+              </div>
+              <div className="feature col-span-2 row-span-1 font-semibold">
+
+                <div className="grid grid-cols-2">
+                  <div className="col-span-1">
+                    <h1 className="text-lg">Frontend:</h1>
+                    <ul className="list-disc ms-8 font-normal">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                      <li>Bootstrap</li>
+                    </ul>
+                  </div>
+                  <div className="col-span-1">
+                   <h1 className="text-lg">Backend:</h1>
+                    <ul className="list-disc ms-8 font-normal">
+                      <li>PHP</li>
+                    </ul>
+                    
+                    <h1 className="text-lg">Database:</h1>
+                    <ul className="list-disc ms-8 font-normal">
+                      <li>MySQL</li>
+                      <li>SQLite</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
@@ -104,7 +151,51 @@ function Projects(){
                 <button className="slideshowButton left md:left-0" onClick={ prevSlideTwo } id="prevButtonTwo">Previous</button>
               </div>
             </div>
-            <div className="contentText">The projects displayed here are my work as a requirement for my college project submissions and for personal projects. The following projects are free and made for non-profit purposes and can be accessed via their respective GitHub repository links shown below. Any use of the projects below should provide a reference or accreditation to its original developer.</div>
+            <div className="contentText">The projects displayed here are my work as a requirement for my college project submissions and for personal projects. The following projects are free and made for non-profit purposes and can be accessed via their respective GitHub repository links shown below. Any use of the projects below should provide a reference or accreditation to its original developer.
+            </div>
+             <div className="featuresPanel">
+              <div className="feature col-span-1 row-span-1 text-center font-bold">
+                FEATURES
+              </div>
+              <div className="feature col-span-1 row-span-1 text-center font-bold">
+                DEVELOPMENT STACK
+              </div>
+              <div className="feature col-span-2 row-span-1 font-semibold">
+                <ul className="list-disc ms-4">
+                  <li>Online inventory tracking for computer parts with and without serialization</li>
+                  <li>Transaction management and history tracking</li>
+                  <li>Product monitoring and management</li>
+                  <li>Sale report and accessible PDF document printing</li>
+                  <li>User interface designed for modern web browsers</li>
+                </ul>
+              </div>
+              <div className="feature col-span-2 row-span-1 font-semibold">
+
+                <div className="grid grid-cols-2">
+                  <div className="col-span-1">
+                    <h1 className="text-lg">Frontend:</h1>
+                    <ul className="list-disc ms-8 font-normal">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                      <li>Bootstrap</li>
+                    </ul>
+                  </div>
+                  <div className="col-span-1">
+                   <h1 className="text-lg">Backend:</h1>
+                    <ul className="list-disc ms-8 font-normal">
+                      <li>PHP</li>
+                    </ul>
+                    
+                    <h1 className="text-lg">Database:</h1>
+                    <ul className="list-disc ms-8 font-normal">
+                      <li>MySQL</li>
+                      <li>SQLite</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
