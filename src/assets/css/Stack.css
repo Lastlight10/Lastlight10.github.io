@@ -1,0 +1,37 @@
+@reference 'index.css';
+
+.panels{
+  @apply bg-[var(--color-primary-800)] p-4 my-5 rounded-md;
+
+}
+
+.headers{
+  @apply text-3xl text-[var(--color-primary-200)] mt-4 mb-4;
+}
+
+.headers2{
+  @apply text-2xl text-[var(--color-primary-100)] mt-4;
+}
+
+.headers3{
+  @apply text-lg text-[var(--color-primary-50)] mt-4 font-bold;
+}
+
+.contentPanel{
+  @apply rounded-2xl p-4;
+}
+.contentText{
+  @apply text-xl text-[var(--color-primary-50)] text-justify indent-8 mt-4;
+}
+.contentTextCenter{
+  @apply text-xl text-[var(--color-primary-50)] text-center indent-8 mt-4;
+}
+.contentSubText{
+  @apply text-base text-[var(--color-primary-50)] text-justify indent-4 mt-4;
+}
+.panelButton{
+  @apply text-lg text-center text-[var(--color-primary-50)] bg-[var(--color-primary-600)] w-1/2 md:w-1/8 h-14 md:h-10 m-2 md:mt-4 rounded-xs;
+  @apply hover:bg-[var(--color-primary-400)];
+  transition: background-color 0.20s;
+  cursor: pointer;
+}

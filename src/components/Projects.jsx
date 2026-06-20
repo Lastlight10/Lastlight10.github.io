@@ -91,8 +91,14 @@ function Projects(){
               </div>
             </div>
 
-            <div className="contentText">The projects displayed here are my work as a requirement for my college project submissions and for personal projects. The following projects are free and made for non-profit purposes and can be accessed via their respective GitHub repository links shown below. Any use of the projects below should provide a reference or accreditation to its original developer.
+            <div className="contentText">The Inventory Management System for Computer Parts with Serialization is a system designed for computer stores or warehouses to properly store information in a secured but accessible place. The system allows the staff to have the processes from the traditional inventory management system but improved and meant to be used in the modern web browsers for ease of use and access. The system is meant to solve the problem of traditional inventory management system such as being reliant to paper documents which need proper storage and security to prevent compromise from outside parties, traditional processes that are slow such as manually searching or writing documents. The staff also has less accessibility as they have to physically obtain the documents to review information compared to it being available online. In conclusion, the system allows inventory management to be streamlined and adapted to a modern web environment.
             </div>
+
+            <div className="contentText">
+              Access the GitHub repo link here: 
+              <a className="text-primary-400" href="https://github.com/Lastlight10/php-computerparts-ims"> IMS for Serialized Computer Parts</a>
+            </div>
+            
 
             <div className="featuresPanel">
               <div className="feature col-span-1 row-span-1 text-center font-bold">
@@ -108,6 +114,7 @@ function Projects(){
                   <li>Product monitoring and management</li>
                   <li>Sale report and accessible PDF document printing</li>
                   <li>User interface designed for modern web browsers</li>
+                  <li>Staff accounts management</li>
                 </ul>
               </div>
               <div className="feature col-span-2 row-span-1 font-semibold">
@@ -151,9 +158,15 @@ function Projects(){
                 <button className="slideshowButton left md:left-0" onClick={ prevSlideTwo } id="prevButtonTwo">Previous</button>
               </div>
             </div>
-            <div className="contentText">The projects displayed here are my work as a requirement for my college project submissions and for personal projects. The following projects are free and made for non-profit purposes and can be accessed via their respective GitHub repository links shown below. Any use of the projects below should provide a reference or accreditation to its original developer.
+            <div className="contentText">The online enrollment management system is a system what aims to ease the process of enrollment for students and allow staff to easily management and maintain these enrollments. The system allows student to view their enrollment history, enrollment details, university curriculum, as well as upload receipts for proof of payment. There are also options for staff to change courses, subjects and curriculum details and user management such as adding staff accounts or managing student status or enrolled courses. The system is built to improve upon the traditional methods of enrollments using paper documents in which students need to be present on the institution to proceed. The system also allows information to be easily accessed by students such as their enrollment information or curriculum online. Overall, the system modernizes the traditional systems of enrollment found on old universities which are slow and manual, allowing students to save time by experiencing faster processes compared to their manual counter part.
             </div>
-             <div className="featuresPanel">
+
+            <div className="contentText">
+              Access the GitHub repo link here: 
+              <a className="text-primary-400" href="https://github.com/Lastlight10/enrollment"> Online Enrollment Management System</a>
+            </div>
+            
+            <div className="featuresPanel">
               <div className="feature col-span-1 row-span-1 text-center font-bold">
                 FEATURES
               </div>
@@ -162,11 +175,13 @@ function Projects(){
               </div>
               <div className="feature col-span-2 row-span-1 font-semibold">
                 <ul className="list-disc ms-4">
-                  <li>Online inventory tracking for computer parts with and without serialization</li>
-                  <li>Transaction management and history tracking</li>
-                  <li>Product monitoring and management</li>
-                  <li>Sale report and accessible PDF document printing</li>
+                  <li>Accessible online enrollment process for students</li>
+                  <li>Enrollment management with payment history and tracking</li>
+                  <li>Courses, subjects, and curriculum management that are customizable depending on the institution</li>
+                  <li>Document reports for payments, enrollments, and history</li>
+                  <li>Highly informative dashboard that presents the statistics and analysis of data within the system</li>
                   <li>User interface designed for modern web browsers</li>
+                  <li>User accounts management for staff and user alike</li>
                 </ul>
               </div>
               <div className="feature col-span-2 row-span-1 font-semibold">
@@ -190,7 +205,6 @@ function Projects(){
                     <h1 className="text-lg">Database:</h1>
                     <ul className="list-disc ms-8 font-normal">
                       <li>MySQL</li>
-                      <li>SQLite</li>
                     </ul>
                   </div>
                 </div>
