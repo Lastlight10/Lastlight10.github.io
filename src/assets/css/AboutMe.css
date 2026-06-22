@@ -27,7 +27,7 @@ img{
   @apply rounded-2xl p-4;
 }
 .contentText{
-  @apply text-xl text-[var(--color-primary-50)] text-justify indent-8 mt-4;
+  @apply text-base md:text-xl text-[var(--color-primary-50)] text-justify indent-8 mt-4;
 }
 .contentSubText{
   @apply text-base text-[var(--color-primary-50)] text-justify indent-4 mt-4;
