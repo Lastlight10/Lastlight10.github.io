@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from '../assets/react.svg'
 import viteLogo from '../assets/vite.svg'
 import heroImg from '../assets/hero.png'
-import { BrowserRouter, Routes, Route } from 'react-router'
+import { HashRouter, Routes, Route } from 'react-router'
 import '../assets/css/App.css'
 import Home from './Home.jsx'
 import AboutMe from './AboutMe.jsx'
@@ -14,7 +14,7 @@ function App() {
   
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <div className="flex w-full bg-primary-800 mb-16 fixed top-0">
           {/* Navbar */}
           <div className="grid grid-cols-3 w-screen h-20">
@@ -57,7 +57,7 @@ function App() {
           <Route path='/stack' element={<Stack />}/>
 
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
