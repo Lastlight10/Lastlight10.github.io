@@ -1,6 +1,12 @@
 import { useState } from 'react'
+import { Link } from 'react-router'
+
+
 import '../assets/css/Home.css'
 import profileImg from '../assets/profile.jpg';
+import projectsImg from '../assets/projects.png'
+import techStackImg from '../assets/techstack.png'
+
 
 function Home(){
   return (
@@ -20,9 +26,9 @@ function Home(){
                 <p className="panelWithButtonText">
                   You can learn more about me here:
                 </p>
-                <a className="panelButton" href="/about_me">
+                <Link className="panelButton" to="/about_me">
                   Click Here
-                </a>
+                </Link>
               </div>
             </div>
             
@@ -35,7 +41,7 @@ function Home(){
           </h1>
           <div className="contentPanel grid grid-cols-3">
             <div className="col-span-1 text-primary-50">
-              <img className="aspect-square rounded-xl" src="src/assets/projects.png" alt="My profile image."></img>
+              <img className="aspect-square rounded-xl" src={projectsImg} alt="My projects image."></img>
             </div>
             <div className="col-span-2 ms-4">
               <p className="contentText">
@@ -45,9 +51,9 @@ function Home(){
                 <p className="panelWithButtonText">
                   You can learn more about my projects here:
                 </p>
-                <a className="panelButton" href="/projects">
+                <Link className="panelButton" to="/projects">
                   Click Here
-                </a>
+                </Link>
               </div>
             </div>
             
@@ -59,7 +65,7 @@ function Home(){
           </h1>
           <div className="contentPanel grid grid-cols-3">
             <div className="col-span-1 text-primary-50">
-              <img className="aspect-square rounded-xl" src="src/assets/techstack.png" alt="My profile image."></img>
+              <img className="aspect-square rounded-xl" src={techStackImg} alt="My stack image."></img>
             </div>
             <div className="col-span-2 ms-4">
               <p className="contentText">
@@ -69,9 +75,9 @@ function Home(){
                 <p className="panelWithButtonText">
                   You can learn more about my development stack here:
                 </p>
-                <a className="panelButton">
+                <Link className="panelButton" to="/stack">
                   Click Here
-                </a>
+                </Link>
               </div>
             </div>
             
