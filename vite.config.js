@@ -8,5 +8,5 @@ export default defineConfig({
     tailwindcss(),
     
   ],
-  base: '/Lastlight10.github.io/',
+  base: '/',
 })
