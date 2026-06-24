@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import '../assets/css/Home.css'
+import profileImg from '../assets/profile.jpg';
 
 function Home(){
   return (
@@ -9,7 +10,7 @@ function Home(){
           <h1 className="headers">About Me</h1>          
           <div className="contentPanel grid grid-cols-3">
             <div className="col-span-1 text-primary-50">
-              <img className="aspect-square rounded-xl" src="src/assets/profile.jpg" alt="My profile image."></img>
+              <img src={profileImg} alt="Profile" />;
             </div>
             <div className="col-span-2 ms-4">
               <p className="contentText">

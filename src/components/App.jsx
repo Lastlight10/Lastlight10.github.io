@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from '../assets/react.svg'
 import viteLogo from '../assets/vite.svg'
 import heroImg from '../assets/hero.png'
-import { HashRouter, Routes, Route } from 'react-router'
+import { HashRouter, Routes, Route, Link } from 'react-router'
 import '../assets/css/App.css'
 import Home from './Home.jsx'
 import AboutMe from './AboutMe.jsx'
@@ -23,27 +23,27 @@ function App() {
             </div>
             <div className="self-center-safe grid grid-cols-4 col-span-2 me-4">
               <div className="col-span-1">
-                <a className="navbarButtons" href='/'>
+                <Link className="navbarButtons" to='/'>
                   Home Page
-                </a >
+                </Link >
               </div>
 
               <div className="col-span-1">
-                <a className="navbarButtons" href='/about_me'>
+                <Link className="navbarButtons" to='/about_me'>
                   About Me
-                </a>
+                </Link>
               </div>
 
               <div className="col-span-1">
-                <a className="navbarButtons" href='/projects'>
+                <Link className="navbarButtons" to='/projects'>
                   Projects
-                </a>
+                </Link>
               </div>
 
               <div className="col-span-1">
-                <a className="navbarButtons" href='/stack'>
+                <Link className="navbarButtons" to='/stack'>
                   Development Stack
-                </a >
+                </Link >
               </div>
 
              
