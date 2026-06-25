@@ -1,6 +1,17 @@
 import '../assets/css/Stack.css';
 import { useRef } from 'react'
 
+import trio from '../assets/trio.jpg';
+import bootstrap from '../assets/bootstrap.jpg';
+import reactPic from '../assets/text1.png';
+import tailwind from '../assets/tailwind.png'
+import php_laravel from '../assets/php_laravel.png'
+import express_node from '../assets/express_node.png'
+import github from '../assets/github.jpeg'
+import vsCode from '../assets/vscode.png'
+
+
+
 function Stack(){
   const frontend = useRef(null);
   const backend = useRef(null);
@@ -37,7 +48,7 @@ function Stack(){
             <h2 className="headers2">HTML, CSS and JavaScript</h2>
             <div className="flex flex-col md:flex-row p-4 items-center">
               <div className="w-3/4 md:w-3/5">
-                <img className="" src="src/assets/trio.jpg"></img>
+                <img className="" src={ trio }></img>
               </div>
               <div className="w-full">
                 <p className="contentText p-4">
@@ -52,7 +63,7 @@ function Stack(){
             <h2 className="headers2">Bootstrap Library</h2>
             <div className="flex flex-col md:flex-row p-4 items-center">
               <div className="w-3/4 md:w-3/5">
-                <img className="" src="src/assets/bootstrap.jpg"></img>
+                <img className="" src={bootstrap}></img>
               </div>
               <div className="w-full">
                 <p className="contentText p-4">
@@ -67,7 +78,7 @@ function Stack(){
             <h2 className="headers2">ReactJS Library</h2>
             <div className="flex flex-col md:flex-row p-4 items-center">
               <div className="w-3/4 md:w-3/5">
-                <img className="" src="src/assets/text1.png"></img>
+                <img className="" src={reactPic}></img>
               </div>
               <div className="w-full">
                 <p className="contentText p-4">
@@ -82,7 +93,7 @@ function Stack(){
             <h2 className="headers2">Tailwind CSS</h2>
             <div className="flex flex-col md:flex-row p-4 items-center">
               <div className="w-3/4 md:w-3/5">
-                <img className="" src="src/assets/tailwind.png"></img>
+                <img className="" src={tailwind}></img>
               </div>
               <div className="w-full">
                 <p className="contentText p-4">
@@ -104,7 +115,7 @@ function Stack(){
             <h2 className="headers2">PHP</h2>
             <div className="flex flex-col md:flex-row p-4 items-center">
               <div className="w-3/4 md:w-3/5">
-                <img className="" src="src/assets/php_laravel.png"></img>
+                <img className="" src={php_laravel}></img>
               </div>
               <div className="w-full">
                 <p className="contentText p-4">
@@ -118,7 +129,7 @@ function Stack(){
             <h2 className="headers2">JavaScript with NodeJS, ExpressJS</h2>
             <div className="flex flex-col md:flex-row p-4 items-center">
               <div className="w-3/4 md:w-3/5">
-                <img className="" src="src/assets/express_node.png"></img>
+                <img className="" src={express_node}></img>
               </div>
               <div className="w-full">
                 <p className="contentText p-4">
@@ -136,7 +147,7 @@ function Stack(){
             <h2 className="headers2">GitHub</h2>
             <div className="flex flex-col md:flex-row p-4 items-center">
               <div className="w-3/4 md:w-3/5">
-                <img className="" src="src/assets/github.jpeg"></img>
+                <img className="" src={github}></img>
               </div>
               <div className="w-full">
                 <p className="contentText p-4">
@@ -153,7 +164,7 @@ function Stack(){
             <h2 className="headers2">Visual Studio Code</h2>
             <div className="flex flex-col md:flex-row p-4 items-center">
               <div className="w-3/4 md:w-3/5">
-                <img className="" src="src/assets/vscode.png"></img>
+                <img className="" src={vsCode}></img>
               </div>
               <div className="w-full">
                 <p className="contentText p-4">

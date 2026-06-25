@@ -1,6 +1,20 @@
 import '../assets/css/Projects.css';
 import { useState, useEffect } from 'react';
 
+import projectOneOne from '../assets/projects1/p1.jpg'
+import projectOneTwo from '../assets/projects1/p2.jpg'
+import projectOneThree from '../assets/projects1/p3.jpg'
+import projectOneFour from '../assets/projects1/p4.jpg'
+import projectOneFive from '../assets/projects1/p5.jpg'
+
+import projectTwoOne from '../assets/projects2/p1.jpg'
+import projectTwoTwo from '../assets/projects2/p2.jpg'
+import projectTwoThree from '../assets/projects2/p3.jpg'
+import projectTwoFour from '../assets/projects2/p4.jpg'
+import projectTwoFive from '../assets/projects2/p5.jpg'
+import projectTwoSix from '../assets/projects2/p6.jpg'
+
+
 function nextSlide(){
 
 };
@@ -8,18 +22,18 @@ function nextSlide(){
 function Projects(){
 
   //FIRST PROJECT
-  const [projectOne, setProjectOne] = useState("src/assets/projects1/p1.jpg");
+  const [projectOne, setProjectOne] = useState(projectOneOne);
   const [countOne, setCountOne] = useState(0);
   let picOne;
 
   function nextSlideOne(){
     setCountOne((prev)=>{
       const nextOne = prev > 3 ? 0 : prev + 1;
-      picOne = nextOne === 1 ? "src/assets/projects1/p2.jpg" 
-      : nextOne === 2 ? "src/assets/projects1/p3.jpg"
-      : nextOne === 3 ? "src/assets/projects1/p4.jpg"
-      : nextOne === 4 ? "src/assets/projects1/p5.jpg"
-      : "src/assets/projects1/p1.jpg";
+      picOne = nextOne === 1 ? projectOneTwo 
+      : nextOne === 2 ? projectOneThree
+      : nextOne === 3 ? projectOneFour
+      : nextOne === 4 ? projectOneFive
+      : projectOneOne;
       setProjectOne(picOne);
       return nextOne;
     });
@@ -28,30 +42,30 @@ function Projects(){
   function prevSlideOne(){
     setCountOne((prev)=>{
       const nextOne = prev < 0 ? 3 : prev - 1;
-      picOne = nextOne === 1 ? "src/assets/projects1/p2.jpg" 
-      : nextOne === 2 ? "src/assets/projects1/p3.jpg"
-      : nextOne === 3 ? "src/assets/projects1/p4.jpg"
-      : nextOne === 4 ? "src/assets/projects1/p5.jpg"
-      : "src/assets/projects1/p1.jpg";
+      picOne = nextOne === 1 ? projectOneTwo 
+      : nextOne === 2 ? projectOneThree
+      : nextOne === 3 ? projectOneFour
+      : nextOne === 4 ? projectOneFive
+      : projectOneOne;
       setProjectOne(picOne);
       return nextOne;
     });
   };
 
   //SECOND PROJECT
-  const [projectTwo, setProjectTwo] = useState("src/assets/projects2/p1.jpg");
+  const [projectTwo, setProjectTwo] = useState(projectTwoOne);
   const [countTwo, setCountTwo] = useState(0);
   let picTwo;
 
   function nextSlideTwo(){
     setCountTwo((prevTwo)=>{
       const nextTwo = prevTwo > 4 ? 0 : prevTwo + 1;
-      picTwo = nextTwo === 1 ? "src/assets/projects2/p2.jpg" 
-      : nextTwo === 2 ? "src/assets/projects2/p3.jpg"
-      : nextTwo === 3 ? "src/assets/projects2/p4.jpg"
-      : nextTwo === 4 ? "src/assets/projects2/p5.jpg"
-      : nextTwo === 5 ? "src/assets/projects2/p6.jpg"
-      : "src/assets/projects2/p1.jpg";
+      picTwo = nextTwo === 1 ? projectTwoTwo
+      : nextTwo === 2 ? projectTwoThree
+      : nextTwo === 3 ? projectTwoFour
+      : nextTwo === 4 ? projectTwoFive
+      : nextTwo === 5 ? projectTwoSix
+      : projectTwoOne;
       setProjectTwo(picTwo);
       return nextTwo;
     });
@@ -60,12 +74,12 @@ function Projects(){
   function prevSlideTwo(){
     setCountTwo((prevTwo)=>{
       const nextTwo = prevTwo < 0 ? 4 : prevTwo - 1;
-      picTwo = nextTwo === 1 ? "src/assets/projects2/p2.jpg" 
-      : nextTwo === 2 ? "src/assets/projects2/p3.jpg"
-      : nextTwo === 3 ? "src/assets/projects2/p4.jpg"
-      : nextTwo === 4 ? "src/assets/projects2/p5.jpg"
-      : nextTwo === 5 ? "src/assets/projects2/p6.jpg"
-      : "src/assets/projects2/p1.jpg";
+      picTwo = nextTwo === 1 ? projectTwoTWo
+      : nextTwo === 2 ? projectTwoThree
+      : nextTwo === 3 ? projectTwoFour
+      : nextTwo === 4 ? projectTwoFive
+      : nextTwo === 5 ? projectTwoSix
+      : projectTwoOne;
       setProjectTwo(picTwo);
       return nextTwo;
     });

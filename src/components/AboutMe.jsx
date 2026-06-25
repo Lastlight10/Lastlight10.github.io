@@ -1,9 +1,13 @@
 import '../assets/css/AboutMe.css';
 import { useState, useEffect } from 'react';
 
+import profileOne from '../assets/profile.jpg';
+import profileTwo from '../assets/profile1.jpg';
+import profileThree from '../assets/profile2.jpg';
+
 function AboutMe() {
 
-  const [profile_image, setImage] = useState("src/assets/profile.jpg");
+  const [profile_image, setImage] = useState(profileOne);
   const [i, setI] = useState(0);
 
   useEffect(()=>{
@@ -11,13 +15,13 @@ function AboutMe() {
       setI((prev)=>{
         const nextI = prev > 1 ? 0 : prev + 1;
         if (nextI === 1){
-          setImage("src/assets/profile1.JPG")
+          setImage(profileTwo)
         }
         else if (nextI === 2){
-          setImage("src/assets/profile2.JPG")
+          setImage(profileThree)
         }
         else{
-          setImage("src/assets/profile.jpg")
+          setImage(profileOne)
         }
         return nextI
       })
